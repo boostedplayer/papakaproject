@@ -2,10 +2,9 @@
 import Navbar from "@/components/Navbar"
 import Footer from '@/components/Footer'
 import axios from "axios";
-import {useRouter} from "next/navigation";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Link from "next/link";
-export default function contact() {
+export default function Contact() {
 
     const [user, setUser] = useState({
         email: "",
