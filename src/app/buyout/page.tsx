@@ -65,8 +65,8 @@ export default function Buyout() {
      <div className="bg-white">
       <Navbar />
       <div className='flex flex-col justify-center text-black h-full m-2'>
-      {x.map((x)=>(
-        <div className='flex flex-col md:flex-row justify-evenly rounded-md m-10'>
+      {x.map((x,keys)=>(
+        <div key="keys" className='flex flex-col md:flex-row justify-evenly rounded-md m-10'>
      
           <div className='flex justify-center '>
          

@@ -7,7 +7,7 @@ import React, { useEffect, useState } from "react";
 import Link from "next/link";
 export default function contact() {
 
-    const [user, setUser] = React.useState({
+    const [user, setUser] = useState({
         email: "",
         telephone: "",
         fullname: "",
