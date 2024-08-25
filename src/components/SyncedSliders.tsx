@@ -41,18 +41,18 @@ const SyncedSliders: React.FC<SyncedSlidersProps> = ({ images }) => {
 
   return (
     <div className="flex md:flex-row items-start">
-      <div className="flex justify-center mt-1 h-[15rem] w-[5rem] sm:h-[18rem] sm:w-[6rem] md:h-[18rem] lg:h-[30rem] lg:w-[7rem] xl:w-[10rem] sm:ml-5 mr-2 sm:mr-8">
+      <div className="flex justify-center mt-2 sm:mt-0.5 h-[15rem] w-[5rem] sm:h-[15.8rem] sm:w-[6rem] md:h-[18rem] lg:h-[30rem] lg:w-[7rem] xl:w-[10rem] sm:ml-5 mr-2 sm:mr-8">
         <Slider 
           {...thumbSliderSettings} 
-          className="flex m-1 h-[4.5rem] w-[5rem] sm:h-[5rem] sm:w-[5rem] lg:h-[9rem] lg:w-[7rem] xl:h-[9.5rem] xl:w-[10rem]"
+          className="flex h-[4.5rem] w-[5rem] sm:h-[4.8rem] sm:w-[5rem] md:h-[6rem] md:w-[5.5rem] lg:h-[9rem] lg:w-[7rem] xl:h-[9.5rem] xl:w-[10rem]"
           ref={(slider) => setThumbSlider(slider)}
         >
           {images.map((image, index) => (
-            <div key={index} className="flex justify-center px-1">
+            <div key={index} className="flex justify-center">
               <img
                 src={image}
                 alt={`Thumbnail image ${index + 1}`}
-                className="h-[4.5rem] w-[5rem] sm:h-[5rem] sm:w-[5rem] lg:h-[9rem] lg:w-[7rem] xl:h-[9.5rem] xl:w-[10rem] object-cover cursor-pointer"
+                className="h-[4.5rem] w-[5rem] sm:h-[4.8rem] sm:w-[5rem] md:h-[5.5rem] md:w-[5.5rem] lg:h-[9rem] lg:w-[7rem] xl:h-[9.5rem] xl:w-[10rem] object-cover cursor-pointer"
               />
             </div>
           ))}

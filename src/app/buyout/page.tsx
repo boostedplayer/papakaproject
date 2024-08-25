@@ -65,13 +65,13 @@ const BuyoutContent = () => {
         <Navbar />
         <div className='flex flex-col justify-center text-black h-full m-2'>
           {x.map((x, keys) => (
-            <div key={keys} className='flex flex-col md:flex-row justify-evenly rounded-md m-10'>
-              <div className='flex justify-center '>
-                <div className='flex h-64 md:h-72 lg:h-[30rem] w-[20rem] md:w-[25rem] xl:w-[40rem] justify-center md:justify-center shrink-0 bg-white'>
+            <div key={keys} className='flex flex-col md:flex-row justify-evenly rounded-md md:m-10'>
+              <div className='flex justify-center border-b-2 border-gray-200 '>
+                <div className='flex h-64 md:h-72 lg:h-[30rem] w-[20rem] md:w-[25rem] xl:w-[40rem] justify-center md:justify-center shrink-0 mb-3 bg-white'>
                   <SyncedSliders images={x.combine} />
                 </div>
               </div>
-              <div className='flex flex-col overflow-visible md:w-[250px] lg:w-[320px] xl:w-[400px] justify-start mt-3 border-b-2 border-gray-200 ml-5 lg:ml-16 lg:mr-12'>
+              <div className='flex flex-col overflow-visible md:w-[250px] lg:w-[320px] xl:w-[400px] justify-start mt-3 border-b-2 border-gray-200 ml-2 sm:ml-5 lg:ml-24 xl:ml-16 lg:mr-12'>
                 <div className='text-left font-["Exo 2"] intend-4 flex sm:w-[550px] md:w-[250px] lg:w-[320px] xl:w-[400px] divide-y align-top mt-2 mb-2'>
                   <h1 className=" text-medium md:text-base text-black font-normal tracking-tight ">
                     {x.slug}

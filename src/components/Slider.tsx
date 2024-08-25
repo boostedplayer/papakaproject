@@ -42,18 +42,21 @@ const Slider: React.FC<SliderProps> = ({ items }) => {
   return (
     <div className="relative overflow-hidden">
       <div
-        className="flex transition-transform duration-500 ease-in-out"
+        className="flex transition-transform duration-500  ease-in-out"
         style={{ transform: `translateX(-${currentIndex * 100}%)` }}
       >
         {items.map((item) => (
-          <div key={item.id} className="p-2 flex-shrink-0 w-1/4">
-            <div className="flex flex-col justify-center text-center bg-white p-4 rounded-lg shadow-md hover:shadow-xl transform hover:scale-105 transition-transform duration-300">
+          <div
+            key={item.id}
+            className="p-2 flex-shrink-0 w-full sm:w-1/2 md:w-2/5 lg:w-1/3 xl:w-1/4"
+          >
+            <div className="flex flex-col justify-center text-center bg-white hover:bg-gray-50 p-4 rounded-lg shadow-md hover:shadow-xl transform hover:scale-105 transition-transform duration-300">
               <img
-                className="h-[17rem] w-full object-cover rounded-lg"
+                className="h-48 w-full object-scale-down  rounded-lg"
                 src={item.main}
-                alt={item.title}
-              />
-              <p className="font-sans text-xl hover:font-medium text-black mt-2">
+                alt={item.title} />
+
+              <p className="font-sans text-lg sm:text-xl hover:font-medium text-black mt-2">
                 {item.title}
               </p>
               <Link
@@ -69,19 +72,20 @@ const Slider: React.FC<SliderProps> = ({ items }) => {
                   Have a Look
                 </Button>
               </Link>
+              
             </div>
           </div>
         ))}
       </div>
       <button
         onClick={goToPrevious}
-        className="absolute top-1/2 left-0 transform -translate-y-1/2 p-2 bg-gray-800 text-white rounded-full focus:outline-none"
+        className="absolute top-1/2 left-0 transform -translate-y-1/2 p-2 bg-gray-800 text-white rounded-full focus:outline-none z-10"
       >
         &#9664;
       </button>
       <button
         onClick={goToNext}
-        className="absolute top-1/2 right-0 transform -translate-y-1/2 p-2 bg-gray-800 text-white rounded-full focus:outline-none"
+        className="absolute top-1/2 right-0 transform -translate-y-1/2 p-2 bg-gray-800 text-white rounded-full focus:outline-none z-10"
       >
         &#9654;
       </button>

@@ -12,14 +12,14 @@ const Products = () => {
     <>
       <Navbar />
       <div className="box-content flex flex-col justify-center bg-gray-200">
-        <div className="container mx-auto bg-white mt-5 mb-5 ml-10 mr-10 rounded-t-xl">
+        <div className="container mx-auto bg-white mt-5 mb-5 ml-10 mr-10 shadow-md rounded-t-xl">
           <div className="flex justify-left bg-white h-[2.5rem] rounded-t-xl">
-            <p className="font-monospace tracking-wide text-2xl text-gray-800 subpixel-antialiased font-bold ml-5 mt-3">
+            <h1 className="font-monospace tracking-wide text-2xl text-gray-800 subpixel-antialiased font-bold ml-5 mt-3">
               Menu Never Seen Before
-            </p>
+            </h1> 
           </div>
-          <div className="relative mt-2">
-            <Slider items={menu.menus} />
+          <div className="relative mt-2 bg-white">
+            <Slider items={menu.menus}/>
           </div>
         </div>
         <div className="container mx-auto bg-white mt-5 mb-5 ml-10 mr-10 rounded-t-xl">
