@@ -66,7 +66,7 @@ const BuyoutContent = () => {
         <div className='flex flex-col justify-center text-black h-full m-2'>
           {x.map((x, keys) => (
             <div key={keys} className='flex flex-col md:flex-row justify-evenly rounded-md md:m-10'>
-              <div className='flex justify-center border-b-2 border-gray-200 '>
+              <div className='flex justify-center border-b-2 border-gray-200  '>
                 <div className='flex h-64 md:h-72 lg:h-[30rem] w-[20rem] md:w-[25rem] xl:w-[40rem] justify-center md:justify-center shrink-0 mb-3 bg-white'>
                   <SyncedSliders images={x.combine} />
                 </div>

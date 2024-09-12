@@ -40,7 +40,7 @@ const Slider: React.FC<SliderProps> = ({ items }) => {
   };
 
   return (
-    <div className="relative overflow-hidden">
+    <div className="relative overflow-hidden mt-2 ">
       <div
         className="flex transition-transform duration-500  ease-in-out"
         style={{ transform: `translateX(-${currentIndex * 100}%)` }}
@@ -48,26 +48,26 @@ const Slider: React.FC<SliderProps> = ({ items }) => {
         {items.map((item) => (
           <div
             key={item.id}
-            className="p-2 flex-shrink-0 w-full sm:w-1/2 md:w-2/5 lg:w-1/3 xl:w-1/4"
+            className="p-2 flex-shrink-0 w-full bg-whtie sm:w-1/2 md:w-2/5 lg:w-1/3 xl:w-1/4"
           >
-            <div className="flex flex-col justify-center text-center bg-white hover:bg-gray-50 p-4 rounded-lg shadow-md hover:shadow-xl transform hover:scale-105 transition-transform duration-300">
+            <div className="flex flex-col justify-center hover:bg-gray-50 text-center shadow-lg bg-white p-4 hover:shadow-2xl transform hover:scale-105 transition-transform duration-300">
               <img
-                className="h-48 w-full object-scale-down  rounded-lg"
+                className="h-80 w-full object-cover"
                 src={item.main}
                 alt={item.title} />
 
-              <p className="font-sans text-lg sm:text-xl hover:font-medium text-black mt-2">
+              <p className="font-sans text-lg sm:text-xl font-normal hover:font-semibold text-black mt-2">
                 {item.title}
               </p>
               <Link
                 href={{
                   pathname: "/buyout",
                   query: { id: item.id },
-                }}
+                }}  
               >
                 <Button
                   variant="outline"
-                  className="bg-black text-white focus:bg-white focus:text-black focus:shadow-outline mt-2 mb-1 w-full"
+                  className="bg-white text-black hover:text-white hover:bg-black hover:font-bold focus:bg-white focus:text-black focus:shadow-outline mt-2 mb-1 w-full"
                 >
                   Have a Look
                 </Button>

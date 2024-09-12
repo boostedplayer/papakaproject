@@ -152,5 +152,160 @@
             }
         
     
+  ],
+
+  "butterpaper": [
+    {
+      "id": 1,
+      "title": "Burger Butter Paper",
+      "slug": "Leather Menu Cover, Restaurant Menu Cover, Cafe Bar Menu Covers, Menu Book, Custom Menu Holder, Menu Cover Design, Menu Folder, Menu Folio",
+      "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
+      "price": 99.99,
+      "instructor": "John Doe",
+      "isFeatured": true,
+      "main":"/butter/butter1.png",
+      "image1": "/butter/butter1.png",
+      "image2": "/butter/butter1.png",
+      "image3": "/butter/butter1.png",
+      "combine": ["/butter/butter1.png","/butter/butter1.png","/butter/butter1.png"]  
+    
+    },
+    {
+        "id": 2,
+        "title": "Waffle Butter Paper" ,
+        "slug": "Leather Menu Cover, Restaurant Menu Cover, Cafe Bar Menu Covers, Menu Book, Custom Menu Holder, Menu Cover Design, Menu Folder, Menu Folio",
+        "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
+        "price": 99.99,
+        "instructor": "John Doe",
+        "isFeatured": true,
+        "main":"/butter/butter2.jpg",
+        "image1":"/butter/butter2.jpg", 
+        "image2": "/butter/butter2.jpg",
+        "image3": "/butter/butter2.jpg",
+        "combine": ["/butter/butter2.jpg","/butter/butter2.jpg","/butter/butter2.jpg"]
+      
+      },
+      {
+        "id": 3,
+        "title": "Lush Green Menu",
+        "slug": "Leather Menu Cover, Restaurant Menu Cover, Cafe Bar Menu Covers, Menu Book, Custom Menu Holder, Menu Cover Design, Menu Folder, Menu Folio",
+        "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
+        "price": 99.99,
+        "instructor": "John Doe",
+        "isFeatured": true,
+        "main":"/menu/greenm.jpg",
+        "image1": "/menu/green1.jpg",
+        "image2": "/menu/green2.jpg",
+        "image3": "/menu/green3.jpg",
+        "combine": ["/menu/green1.jpg","/menu/green2.jpg","/menu/green3.jpg"]  
+      
+      },
+      {
+          "id": 4,
+          "title": "Dark Brown Menu" ,
+          "slug": "Leather Menu Cover, Restaurant Menu Cover, Cafe Bar Menu Covers, Menu Book, Custom Menu Holder, Menu Cover Design, Menu Folder, Menu Folio",
+          "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
+          "price": 99.99,
+          "instructor": "John Doe",
+          "isFeatured": true,
+          "main":"/menu/brown1.jpg",
+          "image1":"/menu/brown1.jpg", 
+          "image2": "/menu/brown2.jpg",
+          "image3": "/menu/brown3.jpg",
+          "combine": ["/menu/brown1.jpg","/menu/brown2.jpg","/menu/brown3.jpg"]
+        
+        },
+        {
+          "id": 5,
+          "title": "Lush Green Menu",
+          "slug": "Leather Menu Cover, Restaurant Menu Cover, Cafe Bar Menu Covers, Menu Book, Custom Menu Holder, Menu Cover Design, Menu Folder, Menu Folio",
+          "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
+          "price": 99.99,
+          "instructor": "John Doe",
+          "isFeatured": true,
+          "main":"/menu/greenm.jpg",
+          "image1": "/menu/green1.jpg",
+          "image2": "/menu/green2.jpg",
+          "image3": "/menu/green3.jpg",
+          "combine": ["/menu/green1.jpg","/menu/green2.jpg","/menu/green3.jpg"]  
+        
+        },
+        {
+          "id": 6,
+          "title": "Lush Green Menu",
+          "slug": "Leather Menu Cover, Restaurant Menu Cover, Cafe Bar Menu Covers, Menu Book, Custom Menu Holder, Menu Cover Design, Menu Folder, Menu Folio",
+          "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
+          "price": 99.99,
+          "instructor": "John Doe",
+          "isFeatured": true,
+          "main":"/menu/greenm.jpg",
+          "image1": "/menu/green1.jpg",
+          "image2": "/menu/green2.jpg",
+          "image3": "/menu/green3.jpg",
+          "combine": ["/menu/green1.jpg","/menu/green2.jpg","/menu/green3.jpg"]  
+        
+        },
+        {
+            "id": 7,
+            "title": "Dark Brown Menu" ,
+            "slug": "Leather Menu Cover, Restaurant Menu Cover, Cafe Bar Menu Covers, Menu Book, Custom Menu Holder, Menu Cover Design, Menu Folder, Menu Folio",
+            "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
+            "price": 99.99,
+            "instructor": "John Doe",
+            "isFeatured": true,
+            "main":"/menu/brown1.jpg",
+            "image1":"/menu/brown1.jpg", 
+            "image2": "/menu/brown2.jpg",
+            "image3": "/menu/brown3.jpg",
+            "combine": ["/menu/brown1.jpg","/menu/brown2.jpg","/menu/brown3.jpg"]
+          
+          },
+          {
+            "id": 8,
+            "title": "Lush Green Menu",
+            "slug": "Leather Menu Cover, Restaurant Menu Cover, Cafe Bar Menu Covers, Menu Book, Custom Menu Holder, Menu Cover Design, Menu Folder, Menu Folio",
+            "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
+            "price": 99.99,
+            "instructor": "John Doe",
+            "isFeatured": true,
+            "main":"/menu/greenm.jpg",
+            "image1": "/menu/green1.jpg",
+            "image2": "/menu/green2.jpg",
+            "image3": "/menu/green3.jpg",
+            "combine": ["/menu/green1.jpg","/menu/green2.jpg","/menu/green3.jpg"]  
+          
+          },
+          {
+              "id": 9,
+              "title": "Dark Brown Menu" ,
+              "slug": "Leather Menu Cover, Restaurant Menu Cover, Cafe Bar Menu Covers, Menu Book, Custom Menu Holder, Menu Cover Design, Menu Folder, Menu Folio",
+              "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
+              "price": 99.99,
+              "instructor": "John Doe",
+              "isFeatured": true,
+              "main":"/menu/brown1.jpg",
+              "image1":"/menu/brown1.jpg", 
+              "image2": "/menu/brown2.jpg",
+              "image3": "/menu/brown3.jpg",
+              "combine": ["/menu/brown1.jpg","/menu/brown2.jpg","/menu/brown3.jpg"]
+            
+            },
+            {
+              "id": 10,
+              "title": "Lush Green Menu",
+              "slug": "Leather Menu Cover, Restaurant Menu Cover, Cafe Bar Menu Covers, Menu Book, Custom Menu Holder, Menu Cover Design, Menu Folder, Menu Folio",
+              "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
+              "price": 99.99,
+              "instructor": "John Doe",
+              "isFeatured": true,
+              "main":"/menu/greenm.jpg",
+              "image1": "/menu/green1.jpg",
+              "image2": "/menu/green2.jpg",
+              "image3": "/menu/green3.jpg",
+              "combine": ["/menu/green1.jpg","/menu/green2.jpg","/menu/green3.jpg"]  
+            
+            }
+        
+    
   ]
 }
