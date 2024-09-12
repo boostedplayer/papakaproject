@@ -16,7 +16,7 @@ const Products = () => {
         <div className="container mx-auto bg-white mt-5 mb-5 ml-10 mr-10 shadow-md rounded-t-3xl">
           <div className="flex justify-center rounded-t-xl h-[2.5rem]">
             <h1 className="font-['Apple Color Emoji'] tracking-wide text-4xl text-gray-700 subpixel-antialiase font-bold hover:font-black ml-5 mt-2">
-              Menu's Never Seen Before
+              Menus Never Seen Before
             </h1> 
           </div>
           <div className="relative mt-2 bg-white">
